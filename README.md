@@ -1,29 +1,35 @@
 # niubility-ui
 
-## Project setup
+## 使用 npm 安装
 
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-
-```
-npm run serve
+```js
+npm install niubility -S
 ```
 
-### Compiles and minifies for production
+### 全局引入
 
-```
-npm run build
-```
-
-### Lints and fixes files
-
-```
-npm run lint
+```js
+import niubilityUi from "niubility-ui";
+import "niubility-ui/dist/niubility-ui.css";
+Vue.use(niubilityUi);
 ```
 
-### Customize configuration
+### 按需引入
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```js
+import { Button } from "../dist/niubility-ui1.umd.min";
+import "../dist/niubility-ui1.css";
+Vue.use(Button);
+```
+
+### 示例
+
+```js
+<nb-button type="primary" circle>
+  主要按钮
+</nb-button>
+```
+
+### Github 地址
+
+See [Github](https://github.com/ysisrich/niubilityUI/tree/master).

@@ -4,6 +4,7 @@
 module.exports = {
     title: 'NiubilityUi',
     description: 'Just playing around',
+    base:'/niubilityUI/',
     markdown: {
         lineNumbers: true
     },
@@ -12,7 +13,8 @@ module.exports = {
             { text: 'Home', link: '/' },
             { text: '指南', link: '/guide/index' },
             { text: '组件', link: '/component/installation' },
-            { text: 'Github', link: 'https://google.com' },
+            { text: 'Npm', link: 'https://www.npmjs.com/package/niubility-ui' },
+            { text: 'Github', link: 'https://github.com/ysisrich/niubilityUI/tree/master' },
         ],
         sidebar: [
             '/component/installation',
