@@ -3,7 +3,7 @@
 ## 使用 npm 安装
 
 ```js
-npm install niubility -S
+npm install niubility-ui -S
 ```
 
 ### 全局引入
