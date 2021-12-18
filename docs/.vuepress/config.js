@@ -22,6 +22,6 @@ module.exports = {
             '/component/button',
             '/component/dialog',
         ],
-        lastUpdated: 'Last Updated', // string | boolean
+        lastUpdated: '上次更新', // string | boolean
     }
   }
