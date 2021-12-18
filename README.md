@@ -30,6 +30,10 @@ Vue.use(Button);
 </nb-button>
 ```
 
+### 文档地址
+
+See [UI 文档](https://ysisrich.github.io/niubilityUI/).
+
 ### Github 地址
 
 See [Github](https://github.com/ysisrich/niubilityUI/tree/master).
