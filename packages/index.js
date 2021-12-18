@@ -1,12 +1,14 @@
 // 整个包的入口
 // 定义 install 方法，接收 Vue 作为参数。如果使用 use 注册插件，则所有的组件都将被注册
 
+import Icon from './icon/index.js'
 import Button from './button/index.js'
 import Dialog from './dialog/index.js'
 import './fonts/font-awesome.scss'
 
 // 存储组件列表
 const components = [
+  Icon,
   Button,
   Dialog
 ]
@@ -23,6 +25,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 export {
+  Icon,
   Button,
   Dialog
 }
