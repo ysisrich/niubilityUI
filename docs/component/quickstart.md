@@ -15,41 +15,28 @@
 在 main.js 中写入以下内容：
 
 ```javascript
-import Vue from "vue";
 import NiubilityUI from "niubility-ui";
-import "../dist/niubility-ui.css";
-import App from "./App.vue";
+import "niubility-ui/dist/niubility-ui.css";
 
 Vue.use(NiubilityUI);
-
-new Vue({
-  el: "#app",
-  render: (h) => h(App),
-});
 ```
 
 以上代码便完成了 Niubility 的引入。需要注意的是，样式文件需要单独引入。
 
 #### 按需引入
 
-接下来，如果你只希望引入部分组件，比如 Button 和 Select，那么需要在 main.js 中写入以下内容：
+接下来，如果你只希望引入部分组件，比如 Button 和 Dialog，那么需要在 main.js 中写入以下内容：
 
 ```javascript
-import Vue from "vue";
-import { Button, Select } from "niubility-ui";
-import App from "./App.vue";
+import { Button, Dialog } from "niubility-ui";
+import "niubility-ui/dist/niubility-ui.css";
 
 Vue.component(Button.name, Button);
-Vue.component(Select.name, Select);
+Vue.component(Dialog.name, Dialog);
 /* 或写为
  * Vue.use(Button)
- * Vue.use(Select)
+ * Vue.use(Dialog)
  */
-
-new Vue({
-  el: "#app",
-  render: (h) => h(App),
-});
 ```
 
 完整组件列表和引入方式

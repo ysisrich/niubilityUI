@@ -17,8 +17,8 @@ Vue.use(niubilityUi);
 ### 按需引入
 
 ```js
-import { Button } from "../dist/niubility-ui1.umd.min";
-import "../dist/niubility-ui1.css";
+import { Button } from "niubility-ui";
+import "niubility-ui/dist/niubility-ui.css";
 Vue.use(Button);
 ```
 
