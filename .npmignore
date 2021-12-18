@@ -4,6 +4,7 @@ examples/
 packages/
 node_modules/
 public/
+docs/
 
 
 # 忽略文件
