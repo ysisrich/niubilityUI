@@ -25,10 +25,10 @@
 
 <nb-button circle icon="nb-icon-search"  ></nb-button>
 <nb-button circle icon="nb-icon-edit" type="primary" ></nb-button>
-<nb-button circle icon="nb-icon-check" type="success" ></nb-button>
-<nb-button circle icon="nb-icon-message" type="warning" ></nb-button>
-<nb-button circle icon="nb-icon-star-off" type="info" ></nb-button>
-<nb-button circle icon="nb-icon-delete" type="danger"></nb-button>
+<nb-button circle icon="nb-icon-trash" type="success" ></nb-button>
+<nb-button circle icon="nb-icon-warning" type="warning" ></nb-button>
+<nb-button circle icon="nb-icon-arrow-down" type="info" ></nb-button>
+<nb-button circle icon="nb-icon-bug" type="danger"></nb-button>
 
 ::: details 点击查看代码
 
@@ -104,7 +104,7 @@
 
 <nb-button type="primary" icon="nb-icon-edit"></nb-button>
 <nb-button type="primary" icon="nb-icon-share"></nb-button>
-<nb-button type="primary" icon="nb-icon-delete"></nb-button>
+<nb-button type="primary" icon="nb-icon-refresh"></nb-button>
 <nb-button type="primary" icon="nb-icon-search">搜索</nb-button>
 <nb-button type="primary">上传<i class="nb-icon-upload nb-icon--right"></i></nb-button>
 
@@ -113,7 +113,7 @@
 ```vue
 <nb-button type="primary" icon="nb-icon-edit"></nb-button>
 <nb-button type="primary" icon="nb-icon-share"></nb-button>
-<nb-button type="primary" icon="nb-icon-delete"></nb-button>
+<nb-button type="primary" icon="nb-icon-refresh"></nb-button>
 <nb-button type="primary" icon="nb-icon-search">搜索</nb-button>
 <nb-button type="primary">上传
     <i class="nb-icon-upload nb-icon--right"></i>

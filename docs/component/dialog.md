@@ -5,14 +5,14 @@
 <nb-button type="danger" @click="dialogVisiable = true">点击打开 Dialog</nb-button>
 
 <nb-dialog title="tip" top="100px" width="30%" :visible.sync="dialogVisiable">
-    <template v-slot:title>
-        <span>提示</span>
-    </template>
-    <span>这是一段信息</span>
-    <template v-slot:footer>
-        <nb-button @click="dialogVisiable = false">取消</nb-button>
-        <nb-button type="primary" @click="dialogVisiable = false">确定</nb-button>
-    </template>
+  <template v-slot:title>
+    <span>提示</span>
+  </template>
+  <span>这是一段信息</span>
+  <template v-slot:footer>
+    <nb-button @click="dialogVisiable = false">取消</nb-button>
+    <nb-button type="primary" @click="dialogVisiable = false">确定</nb-button>
+  </template>
 </nb-dialog>
 
 <script>
@@ -28,20 +28,19 @@ export default {
 ::: details 点击查看代码
 
 ```vue
-<nb-button
-  type="danger"
-  @click="dialogVisiable = true"
->点击打开 Dialog</nb-button>
+<nb-button type="danger" @click="dialogVisiable = true">
+    点击打开 Dialog
+</nb-button>
 
 <nb-dialog title="tip" top="100px" width="30%" :visible.sync="dialogVisiable">
-    <template v-slot:title>
-        <span>提示</span>
-    </template>
-    <span>这是一段信息</span>
-    <template v-slot:footer>
-        <nb-button @click="dialogVisiable = false">取消</nb-button>
-        <nb-button type="primary" @click="dialogVisiable = false">确定</nb-button>
-    </template>
+  <template v-slot:title>
+    <span>提示</span>
+  </template>
+  <span>这是一段信息</span>
+  <template v-slot:footer>
+    <nb-button @click="dialogVisiable = false">取消</nb-button>
+    <nb-button type="primary" @click="dialogVisiable = false">确定</nb-button>
+  </template>
 </nb-dialog>
 
 <script>

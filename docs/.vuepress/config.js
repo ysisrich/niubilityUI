@@ -3,7 +3,7 @@
 // .vuepress/config.js
 module.exports = {
     title: 'NiubilityUi',
-    description: 'Just playing around',
+    description: '一款牛逼且不粗的UI组件库',
     base:'/niubilityUI/',
     markdown: {
         lineNumbers: true
@@ -19,9 +19,11 @@ module.exports = {
         sidebar: [
             '/component/installation',
             '/component/quickstart',
+            '/component/icon',
             '/component/button',
             '/component/dialog',
         ],
         lastUpdated: '上次更新', // string | boolean
-    }
+    },
+    plugins: ['@vuepress/nprogress','@vuepress/back-to-top']
   }

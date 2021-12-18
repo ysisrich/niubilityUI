@@ -1,4 +1,4 @@
-@import './font.scss';
+@import './font-awesome.scss';
 
 
 $normal-color: #fff;
@@ -247,6 +247,9 @@ $danger-active-color: #f78989;
 // 让图标和文字之间空开
 .nb-button [class*='nb-icon-'] + span {
   margin-left: 5px;
+}
+.nb-icon--right{
+  margin-left: 10px;
 }
 .nb-button [class*="nb-icon-"],[class^="nb-icon-"] {
     speak: none;

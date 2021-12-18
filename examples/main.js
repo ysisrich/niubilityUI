@@ -7,8 +7,8 @@ import App from './App.vue'
 
 
 // 全部引入
-import niubilityUi from '../dist/niubility-ui1.umd.min'
-import '../dist/niubility-ui1.css'
+import niubilityUi from '../dist/niubility-ui.umd.min'
+import '../dist/niubility-ui.css'
 Vue.use(niubilityUi)
 console.log(niubilityUi)
 

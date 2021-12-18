@@ -3,7 +3,7 @@
 
 import Button from './button/index.js'
 import Dialog from './dialog/index.js'
-import './fonts/font.scss'
+import './fonts/font-awesome.scss'
 
 // 存储组件列表
 const components = [
