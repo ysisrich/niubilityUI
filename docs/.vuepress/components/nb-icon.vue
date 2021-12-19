@@ -25,5 +25,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+/*
+* 引入字体图标
+* awesome字体
+* 官网 https://fontawesome.dashgame.com/#google_vignette
+*/
 @import './scss/font-awesome.scss'
 </style>

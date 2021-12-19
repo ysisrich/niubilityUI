@@ -6,12 +6,14 @@
       plain ? 'is-plain' : '',
       round ? 'is-round' : '',
       circle ? 'is-circle' : '',
-      disabled ? 'is-disabled' : ''
+      disabled ? 'is-disabled' : '',
+      animate ? `nb-animate-${animate}`: '',
     ]"
     :disabled="disabled"
     @click="handleClick"
   >
-    <i :class="icon" v-if="icon" />
+    <i class="nb-icon-spinner nb-icon-spin" v-if="loading"></i>
+    <i :class="icon" v-if="icon && !loading"></i>
     <!-- tip:根据是否传入内容进行span渲染 -->
     <span v-if="$slots.default">
       <slot></slot>
@@ -30,7 +32,6 @@ export default {
       this.$emit('click', e)
     }
   },
-  components: {},
   props: {
     // 按钮类型
     type: {
@@ -54,7 +55,16 @@ export default {
     },
     // icon
     icon: {
-      // tip：这里icon为数组类型，给它添加一个布尔作为默认值
+      type: String,
+      default: ''
+    },
+    // loading
+    loading: {
+      type: Boolean,
+      default: false
+    },
+    // animate
+    animate: {
       type: String,
       default: ''
     },
@@ -63,11 +73,7 @@ export default {
       type: Boolean,
       default: false
     }
-  },
-  created() {},
-  mounted() {},
-  computed: {},
-  watched: {}
+  }
 }
 </script>
 <style scoped lang="scss">

@@ -1,6 +1,6 @@
 {
   "name": "niubility-ui",
-  "version": "0.1.30",
+  "version": "0.1.32",
   "private": false,
   "main": "dist/niubility-ui.umd.min.js",
   "description": "很不错的组件库",

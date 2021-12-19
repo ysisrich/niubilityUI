@@ -78,108 +78,52 @@
 
 ### 图标集合<br><br>
 
-<div style="display:flex;flex-wrap: wrap;justify-content: space-evenly;">
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="user-o"></nb-icon>
-        <span>user-o</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="user-circle-o"></nb-icon>
-        <span>user-circle-o</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="cog"></nb-icon>
-        <span>cog</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="phone"></nb-icon>
-        <span>phone</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="spinner"></nb-icon>
-        <span>spinner</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="circle-o-notch"></nb-icon>
-        <span>circle-o-notch</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="file"></nb-icon>
-        <span>file</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="warning"></nb-icon>
-        <span>warning</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="bar-chart"></nb-icon>
-        <span>bar-chart</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="jpy"></nb-icon>
-        <span>jpy</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="arrow-right"></nb-icon>
-        <span>arrow-right</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="arrow-left"></nb-icon>
-        <span>arrow-left</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="arrow-up"></nb-icon>
-        <span>arrow-up</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="arrow-down"></nb-icon>
-        <span>arrow-down</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="arrows"></nb-icon>
-        <span>arrows</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="chevron-right"></nb-icon>
-        <span>chevron-right</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="chevron-left"></nb-icon>
-        <span>chevron-left</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="chevron-up"></nb-icon>
-        <span>chevron-up</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="chevron-down"></nb-icon>
-        <span>chevron-down</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="hand-o-up"></nb-icon>
-        <span>hand-o-up</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="pause"></nb-icon>
-        <span>pause</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="backward"></nb-icon>
-        <span>backward</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="play"></nb-icon>
-        <span>play</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="forward"></nb-icon>
-        <span>forward</span>
-    </div>
-    <div style="display: grid;grid-template-columns: repeat(1, 1fr);grid-gap: 5px;margin:15px 20px;text-align:center;width:100px;">
-        <nb-icon type="stop"></nb-icon>
-        <span>stop</span>
+<style lang="css" scoped>
+  .box{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+    margin:15px 20px;
+    text-align:center;
+    width:100px;
+  }
+</style>
+
+<script>
+export default {
+    data(){
+        return{
+            iconList:["user-o","user-circle-o","cog","grid","spinner",
+                    "circle-o-notch","file","warning","bar-chart","jpy",
+                    "arrow-right","arrow-left","arrow-up","arrow-down","arrows",
+                    "chevron-right","chevron-left","chevron-up","chevron-down","hand-o-up",
+                    "pause","backward","forward","play","stop",
+                    "child","comments","check-square","commenting-o","cloud-upload",
+                    "coffee","cubeward","diamond","envelope-o","exclamation",
+                    "frown-o","gift","heartbeat","laptop","info-circleop",
+                    "microphone","mobile-phone","music","magic","plus-circle",
+                    "remove","send ","star-o","tags","taxi",
+            ]
+        }
+    }
+}
+</script>
+
+<div class="box">
+    <div class="grid" v-for="item in iconList">
+        <nb-icon :type="item"></nb-icon>
+        <span>{{item}}</span>
     </div>
 </div>
+
+<br>
+<br>
+<br>
 
 ### Attributes
 

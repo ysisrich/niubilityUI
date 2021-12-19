@@ -1,4 +1,11 @@
 
+/*
+* 引入字体图标
+* awesome字体
+* 官网 https://fontawesome.dashgame.com/#google_vignette
+*/
+@import './animate_scss/hover.scss';
+
 $normal-color: #fff;
 $normal-active-color: #409eff;
 $primary-color: #409eff;
@@ -245,6 +252,9 @@ $danger-active-color: #f78989;
 // 让图标和文字之间空开
 .nb-button [class*='nb-icon-'] + span {
   margin-left: 5px;
+}
+.nb-icon--right{
+  margin-left: 10px;
 }
 .nb-button [class*="nb-icon-"],[class^="nb-icon-"] {
     speak: none;
