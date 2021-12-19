@@ -17,8 +17,9 @@ Vue.use(niubilityUi);
 ### 按需引入
 
 ```js
-import { Button } from "niubility-ui";
+import { Icon, Button } from "niubility-ui";
 import "niubility-ui/dist/niubility-ui.css";
+Vue.use(Icon);
 Vue.use(Button);
 ```
 
@@ -37,3 +38,7 @@ See [UI 文档](https://ysisrich.github.io/niubilityUI/).
 ### Github 地址
 
 See [Github](https://github.com/ysisrich/niubilityUI/tree/master).
+
+### Gitee 地址
+
+See [Gitee](https://gitee.com/YSisrich/niubilityUI/tree/master).

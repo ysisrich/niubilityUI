@@ -14,7 +14,15 @@ module.exports = {
             { text: '指南', link: '/guide/index' },
             { text: '组件', link: '/component/installation' },
             { text: 'Npm', link: 'https://www.npmjs.com/package/niubility-ui' },
-            { text: 'Github', link: 'https://github.com/ysisrich/niubilityUI/tree/master' },
+            
+            {
+                text: '代码地址',
+                ariaLabel: 'Language Menu',
+                items: [
+                    { text: 'Github', link: 'https://github.com/ysisrich/niubilityUI/tree/master' },
+                    { text: 'Gitee', link: 'https://gitee.com/YSisrich/niubilityUI/tree/master' },
+                ]
+            }
         ],
         sidebar: [
             '/component/installation',

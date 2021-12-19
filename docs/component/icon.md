@@ -2,7 +2,7 @@
 
 > 这里主要根据 [font-awesome](https://fontawesome.dashgame.com/#google_vignette) 提供的丰富图标集合
 
-### 使用方法
+### 基本图标
 
 > 设置图标类名，例如：eye phone wifi trash thumbs-up 等
 
@@ -50,6 +50,28 @@
 <nb-icon spin type="refresh"></nb-icon>
 <nb-icon spin type="cog"></nb-icon>
 <nb-icon spin type="spinner"></nb-icon>
+```
+
+:::
+
+### 颜色图标
+
+> 设置 color，支持 十六进制颜色、rgb、颜色名
+
+<nb-icon style="margin:10px 20px;" color="green"  type="check"></nb-icon>
+<nb-icon style="margin:10px 20px;" color="red" type="close"></nb-icon>
+<nb-icon style="margin:10px 20px;" color="#b81d25" type="battery-quarter"></nb-icon>
+<nb-icon style="margin:10px 20px;" color="#2aa515" type="battery-4"></nb-icon>
+<nb-icon style="margin:10px 20px;" color="rgba(0,0,255)" type="bluetooth"></nb-icon>
+
+::: details 点击查看代码
+
+```vue
+<nb-icon color="green" type="check"></nb-icon>
+<nb-icon color="red" type="close"></nb-icon>
+<nb-icon color="#b81d25" type="battery-quarter"></nb-icon>
+<nb-icon color="#2aa515" type="battery-4"></nb-icon>
+<nb-icon color="rgba(0,0,255)" type="bluetooth"></nb-icon>
 ```
 
 :::
