@@ -4,7 +4,7 @@ heroImage: /niubi.png
 heroText: NiubilityUI
 tagline: 一款牛逼的ui组件库
 actionText: 快速上手 →
-actionLink: /component/installation
+actionLink: /base/quickstart
 features:
   - title: 细致、漂亮的 UI
     details: 以 UI 设计师的角度出发，实现一款深入大众心里的那款ui组件库。

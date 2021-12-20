@@ -8,13 +8,20 @@ import Switch from './switch/index.js'
 import Dialog from './dialog/index.js'
 import './fonts/font-awesome.scss'
 
+import Emotion from './emotion/index.js'
+import EmotionInput from './emotion-input/index.js'
+
+
 // 存储组件列表
 const components = [
   Icon,
   Button,
   Input,
   Switch,
-  Dialog
+  Dialog,
+
+  Emotion,
+  EmotionInput
 ]
 const install = function (Vue) {
   // 全局注册所有的组件
@@ -33,7 +40,10 @@ export  {
   Button,
   Input,
   Switch,
-  Dialog
+  Dialog,
+
+  Emotion,
+  EmotionInput
 }
 
 export default {

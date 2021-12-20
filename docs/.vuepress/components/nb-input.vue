@@ -19,6 +19,8 @@
     <span class="nb-input__suffix" v-if="showSuffix">
       <i class="nb-input__icon nb-icon-close" v-if="clearable && value" @click="clear"></i>
       <i class="nb-input__icon nb-icon-search" v-if="showSearch" @click="search"></i>
+      <span class="nb-input__icon nb-icon-meh-o nb-icon-lg"  v-if="showEmotion" @click="emotion"></span>
+      <span class="nb-input__icon nb-icon-send-o nb-icon-lg" style="margin:8px;"  v-if="showEmotion" @click="send"></span>
       <i class="nb-input__icon nb-icon-eye"
         v-if="showPassword"
         @click="handlePassword"
@@ -73,6 +75,10 @@ export default {
       type: Boolean,
       default: false
     },
+    showEmotion:{
+      type: Boolean,
+      default: false
+    },
     autofocus:{
       type: Boolean,
       default: false
@@ -88,7 +94,7 @@ export default {
   },
   computed: {
     showSuffix () {
-      return this.clearable || this.showPassword || this.showSearch
+      return this.clearable || this.showPassword || this.showSearch || this.showEmotion
     }
   },
   methods: {
@@ -101,6 +107,12 @@ export default {
     },
     search(){
       this.$emit('search', this.value)
+    },
+    emotion(){
+      this.$emit('emotion', '')
+    },
+    send(){
+      this.$emit('send', this.value)
     },
     handlePassword () {
       this.passwordVisible = !this.passwordVisible

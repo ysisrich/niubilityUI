@@ -1,0 +1,12 @@
+.nb-emotion-input-box{
+    position: relative;
+    .nb-input{
+        border-radius: "6px";
+        box-shadow: 0px 0px 24px rgba(0,0,0,.2);
+    }
+    .nb-emotion{
+        position: absolute;
+        top: 45px;
+        right: 0;
+    }
+}

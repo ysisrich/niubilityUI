@@ -28,14 +28,14 @@ Vue.use(NiubilityUI);
 接下来，如果你只希望引入部分组件，比如 Button 和 Dialog，那么需要在 main.js 中写入以下内容：
 
 ```javascript
-import { Button, Dialog } from "niubility-ui";
+import { Icon, Button } from "niubility-ui";
 import "niubility-ui/dist/niubility-ui.css";
 
+Vue.component(Icon.name, Icon);
 Vue.component(Button.name, Button);
-Vue.component(Dialog.name, Dialog);
 /* 或写为
+ * Vue.use(Icon)
  * Vue.use(Button)
- * Vue.use(Dialog)
  */
 ```
 
@@ -43,8 +43,11 @@ Vue.component(Dialog.name, Dialog);
 
 ```javascript
 import Vue from "vue";
-import { Dialog, Button } from "niubility-ui";
+import { Icon, Button, Input, Switch, Dialog } from "niubility-ui";
 
-Vue.use(Dialog);
+Vue.use(Icon);
 Vue.use(Button);
+Vue.use(Input);
+Vue.use(Switch);
+Vue.use(Dialog);
 ```

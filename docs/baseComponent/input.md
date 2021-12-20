@@ -1,6 +1,6 @@
 # Input 输入框
 
-### 基本用法<br><br>
+### 基础用法<br><br>
 
 <script>
 export default {

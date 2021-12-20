@@ -1,0 +1,26 @@
+.nb-emotion-box {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    overflow: hidden;
+    overflow-y: auto;
+    /*定义滑块 宽度 背景色*/
+    &::-webkit-scrollbar{
+        width: 5px;
+        height: 3px !important;
+        background-color: #F5F5F5;
+    }
+    /*定义滑块 内阴影+圆角*/
+    &::-webkit-scrollbar-thumb {
+        background-color: rgba(0,0,0,.15);
+    }
+    .nb-emotion-box-line {
+        display: flex;
+        .nb-emotion-item {
+            flex: 1;
+            text-align: center;
+            cursor: pointer;
+            margin: 5px;
+        }
+    }
+  }

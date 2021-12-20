@@ -1,5 +1,5 @@
 <template>
-    <i :class="[`nb-icon-${type}`,{'nb-icon-spin':spin}]" :style="{ fontSize:`${size}px`,color }" ></i>
+    <i :class="['nb-icon',`nb-icon-${type}`,{'nb-icon-spin':spin}]" :style="{ fontSize:`${size}px`,color }" ></i>
 </template>
 
 <script>
