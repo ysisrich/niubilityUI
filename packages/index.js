@@ -3,6 +3,8 @@
 
 import Icon from './icon/index.js'
 import Button from './button/index.js'
+import Input from './input/index.js'
+import Switch from './switch/index.js'
 import Dialog from './dialog/index.js'
 import './fonts/font-awesome.scss'
 
@@ -10,6 +12,8 @@ import './fonts/font-awesome.scss'
 const components = [
   Icon,
   Button,
+  Input,
+  Switch,
   Dialog
 ]
 const install = function (Vue) {
@@ -24,12 +28,13 @@ if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue)
 }
 
-export {
+export  {
   Icon,
   Button,
+  Input,
+  Switch,
   Dialog
 }
-
 
 export default {
   install
