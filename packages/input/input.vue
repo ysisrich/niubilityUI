@@ -6,17 +6,23 @@
       :class="{'is-disabled': disabled}"
       :placeholder="placeholder"
       :type="showPassword ? (passwordVisible ? 'text':'password') : type"
+      :autofocus="autofocus"
+      :readonly="readonly"
+      :autocomplete="autocomplete"
+      :maxlength="max"
+      :minlength="min"
       :name="name"
       :disabled="disabled"
       :value="value"
       @input="handleInput"
     >
     <span class="nb-input__suffix" v-if="showSuffix">
-      <i class="nb-input__icon nb-icon-circle-close" v-if="clearable && value" @click="clear"></i>
-      <i class="nb-input__icon nb-icon-view"
+      <i class="nb-input__icon nb-icon-close" v-if="clearable && value" @click="clear"></i>
+      <i class="nb-input__icon nb-icon-search" v-if="showSearch" @click="search"></i>
+      <i class="nb-input__icon nb-icon-eye"
         v-if="showPassword"
         @click="handlePassword"
-        :class="{'nb-icon-view-active':passwordVisible}"
+        :class="{'nb-icon-eye-slash':passwordVisible}"
       ></i>
     </span>
   </div>
@@ -32,6 +38,13 @@ export default {
     }
   },
   props: {
+    max:Number,
+    min:Number,
+    form: String,
+    value: {
+      type: String,
+      default: ''
+    },
     placeholder: {
       type: String,
       default: ''
@@ -48,10 +61,6 @@ export default {
       type: Boolean,
       default: false
     },
-    value: {
-      type: String,
-      default: ''
-    },
     clearable: {
       type: Boolean,
       default: false
@@ -59,11 +68,27 @@ export default {
     showPassword: {
       type: Boolean,
       default: false
+    },
+    showSearch:{
+      type: Boolean,
+      default: false
+    },
+    autofocus:{
+      type: Boolean,
+      default: false
+    },
+    readonly:{
+      type: Boolean,
+      default: false
+    },
+    autocomplete: {
+      type: String,
+      default: 'off'
     }
   },
   computed: {
     showSuffix () {
-      return this.clearable || this.showPassword
+      return this.clearable || this.showPassword || this.showSearch
     }
   },
   methods: {
@@ -74,6 +99,9 @@ export default {
       // 把内容清空
       this.$emit('input', '')
     },
+    search(){
+      this.$emit('search', this.value)
+    },
     handlePassword () {
       this.passwordVisible = !this.passwordVisible
     }
@@ -82,5 +110,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import './input.scss'
+@import './input.scss';
 </style>

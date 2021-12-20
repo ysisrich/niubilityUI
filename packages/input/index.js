@@ -1,7 +1,7 @@
-import NbSwitch from './input.vue';
+import NbInput from './input.vue';
 
-NbSwitch.install = (Vue) => {
-  Vue.component(NbSwitch.name, NbSwitch);
+NbInput.install = (Vue) => {
+  Vue.component(NbInput.name, NbInput);
 };
 
-export default NbSwitch;
+export default NbInput;

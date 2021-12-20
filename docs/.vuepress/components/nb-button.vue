@@ -77,5 +77,5 @@ export default {
 }
 </script>
 <style scoped lang="scss">
-  @import './scss/button.scss'
+  @import './scss/button.scss';
 </style>

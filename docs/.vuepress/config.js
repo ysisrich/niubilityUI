@@ -29,10 +29,9 @@ module.exports = {
             '/component/quickstart',
             '/component/icon',
             '/component/button',
+            '/component/input',
             '/component/switch',
             '/component/dialog',
-            '/component/input',
-
         ],
         lastUpdated: '上次更新', // string | boolean
     },

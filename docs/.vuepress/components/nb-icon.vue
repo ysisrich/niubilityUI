@@ -30,5 +30,5 @@ export default {
 * awesome字体
 * 官网 https://fontawesome.dashgame.com/#google_vignette
 */
-@import './scss/font-awesome.scss'
+@import './scss/font-awesome.scss';
 </style>

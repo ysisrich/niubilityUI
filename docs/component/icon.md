@@ -98,7 +98,7 @@
 export default {
     data(){
         return{
-            iconList:["user-o","user-circle-o","cog","grid","spinner",
+            iconList:["user-o","user-circle-o","cog","telegram","spinner",
                     "circle-o-notch","file","warning","bar-chart","jpy",
                     "arrow-right","arrow-left","arrow-up","arrow-down","arrows",
                     "chevron-right","chevron-left","chevron-up","chevron-down","hand-o-up",
