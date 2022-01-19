@@ -42,3 +42,13 @@ See [Github](https://github.com/ysisrich/niubilityUI/tree/master).
 ### Gitee 地址
 
 See [Gitee](https://gitee.com/YSisrich/niubilityUI/tree/master).
+
+示例:
+
+![](https://cdn.jsdelivr.net/gh/ysisrich/Assets/niubility-ui/nb_1.png)
+
+![](https://cdn.jsdelivr.net/gh/ysisrich/Assets/niubility-ui/nb_2.png)
+
+![](https://cdn.jsdelivr.net/gh/ysisrich/Assets/niubility-ui/nb_3.png)
+
+![](https://cdn.jsdelivr.net/gh/ysisrich/Assets/niubility-ui/nb_4.png)
